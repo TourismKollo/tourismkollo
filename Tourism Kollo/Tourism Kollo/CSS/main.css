@@ -1,0 +1,319 @@
+.body{
+    background-color: black;
+}
+
+.book {
+    position: fixed;
+    top: 50px; /* Adjust based on desired position */
+    right: 50px; /* Adjust based on desired position */
+    padding: 15px 25px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    /*z-index: 1000; Ensure the button is above other content */
+}
+
+.book a{
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+}
+.book:hover {
+    background-color: #0056b3;
+}
+.homeImgs{
+    
+    height: 620px;
+    width: auto;
+    border: none;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 450px 450px 450px;
+    opacity:0.20;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.homeImgs img {
+    width: 450px;; 
+    height: 620px; 
+    margin-right: 0%;
+}
+
+.homeImgs img.active {
+    opacity: 1;
+
+}
+.galle1,.galle2,.galle3,.colombo1,.colombo2,.colombo3,.kandy1,.kandy2,.kandy3{
+    margin: 0;
+    padding: 0;
+    height: 610px;
+    width: 450px;
+
+}
+
+.slideshow {
+    overflow: hidden;
+}
+
+.classs{
+    position: static;
+    bottom: 0;
+}
+.totursimH1{
+    font-size: 96px;
+    color: white;
+    position: relative;
+    margin-top: -350px;
+    margin-left: 350px;
+    font-family: Monospace;
+}
+
+.totursimH2{
+    color: white;
+    position: relative;
+    margin-top: -80px;
+    margin-left: 930px;
+    font-family: Monospace;
+}
+
+.fblogoI{
+    position: relative;
+    width:60px;
+    height: 60px;
+    margin-top: 125px;
+    margin-left: 92%;
+    opacity:0.7;
+}
+
+.ytlogoI{
+    position: relative;
+    width:90px;
+    height: 90px;
+    margin-top: -77px;
+    margin-left: 84%;
+    opacity:0.7;    
+}
+
+.logoI{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 90px;
+    width: 500px;
+    height: 500px;
+}
+
+.Ab_Totursim{
+    width: 450px;
+    height: 380px;
+    position: relative;
+    margin-top: -430px;
+    margin-left: 680px;
+}
+
+.totursimDes1{
+    color: azure;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.characters{
+    font-size: px;
+    font-family: 'Courier New', monospace;
+    color: blue;
+}
+
+.kollo{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 340px 340px 340px 90px;
+    grid-template-rows: 200px;
+}
+
+.kollo2{
+    margin-top: 20px;
+    margin-left: 180px;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 290px 140px 280px 350px;
+    grid-template-rows: 200px;
+}
+
+.dulan{
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.ashan,.damith,.salinda,.thilanka,.ruwantha,.sachintha,.ashen{
+    border-radius: 200px;
+    width: 190px;
+    height: 200px;
+}
+
+.names{
+    margin-left: 50px;
+    color: #f1f1f1;
+    display: grid;
+    grid-template-columns: 360px 330px 350px 160px;
+}
+
+.names2{
+    margin-left: 180px;
+    color: #f1f1f1;
+    display: grid;
+    grid-template-columns: 340px 380px 350px;
+}
+
+.backvideo{
+    margin-top: 100px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    position: absolute;
+    margin-top: -760px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #f1f1f1;
+    height: 760px;
+    width: 100%;
+    padding: 0px;
+}
+
+.tag1{
+    font-size: 32px;
+    color: whitesmoke;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Monospace;
+    /* opacity: 0.5; */
+    
+}
+.content2 {
+    position: absolute;
+    margin-top: -760px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #f1f1f1;
+    height: 760px;
+    width: 100%;
+    padding: 0px;
+}
+
+.news1{
+    position: relative;
+    /*width: 200px;
+    height: 200px;
+    background-color: #f1f1f1;*/
+    font-family: 'Noto Sans Sinhala';
+}
+
+.kdhkolloLogo{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 180px;
+    width: 170px;
+    height: 170px;
+}
+
+.KDHKollo{
+    margin-top: -165px;
+    margin-left: 400px;
+}
+
+.kdhkollo_des{
+    font-size: 30px;
+    position: relative;
+    color: yellow;
+    font-family: Garamond, serif;
+}
+
+.colorW{
+    color: white;
+    font-size: 24px;
+}
+
+.colorY{
+    color: yellow;
+    font-size: 30px;
+}
+
+.colorW1{
+    color: #e27831;
+    font-size: 30px;
+}
+
+.kdhkollo_des2{
+    color: lavender;
+    font-size: 24px;
+    text-align: justify;
+    font-family: Garamond, serif;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px 20px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section p, .footer-section ul {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section .contact span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
